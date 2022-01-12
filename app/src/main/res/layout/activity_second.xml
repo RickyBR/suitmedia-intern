@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_nama2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_semibold"
@@ -72,12 +72,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.459" />
 
+
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_check_user"
         android:layout_width="310dp"
         android:layout_height="40dp"
         android:background="@drawable/bg_btn_main"
         android:fontFamily="@font/poppins_medium"
-        android:text="Next"
+        android:text="Check User"
         android:textColor="#fff"
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
