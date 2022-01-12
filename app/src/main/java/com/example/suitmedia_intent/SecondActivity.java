@@ -29,6 +29,8 @@ public class SecondActivity extends AppCompatActivity {
             int position = intent.getExtras().getInt("position");;
             tv_nama2.setText(ThirdActivity.dataArrayList.get(position).getFirst_name());
 
+            tv_nama.setText(nama);
+
         }
 
 

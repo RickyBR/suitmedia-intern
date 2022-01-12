@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         et_nama = findViewById(R.id.et_nama);
         et_palin = findViewById(R.id.et_palin);
-        tv_hasil = findViewById(R.id.tv_hasil);
         btn_next = findViewById(R.id.btn_next);
 
         btn_next.setOnClickListener(new View.OnClickListener() {
