@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="90dp"
     android:orientation="horizontal"
-    android:background="@drawable/rounded_list"
+
     android:layout_marginBottom="10dp"
     >
     <TextView
@@ -22,7 +22,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginStart="32dp">
         <ImageView
-            android:id="@+id/img_staf"
+            android:id="@+id/img_user"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:foreground="@drawable/rounded_image"
@@ -36,25 +36,39 @@
             android:layout_gravity="center"
             android:layout_marginStart="16dp"
             >
-
-            <TextView
-                android:id="@+id/tv_namaS"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bocil Kematian"
-                android:fontFamily="@font/poppins_medium"
-                android:textColor="#000"
-                android:fontSize="16sp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_firstN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="John"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    />
+                <TextView
+                    android:id="@+id/tv_lastN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doe"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:layout_marginStart="4dp"
+                    />
+            </LinearLayout>
 
-                />
             <TextView
-                android:id="@+id/tv_jabatan"
+                android:id="@+id/tv_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Email"
                 android:fontFamily="@font/poppins_medium"
                 android:textColor="#686777"
-                android:fontSize="12sp"
+                android:textSize="12sp"
 
 
                 />
